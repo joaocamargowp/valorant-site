@@ -1,0 +1,106 @@
+body { 
+    background-image: url('../img/VALORANT\ SECUNT.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.conteudo-terciario {
+    position: absolute;
+    padding: 90px 90px;
+    margin-top: 760px;
+    color: white;
+    font-size: 25px;
+    text-shadow: 0px 0px 10px black;}
+
+.linha {
+    position: absolute;
+    width:  87%;
+    height: 2px;
+    left: 90px;
+    top: 925px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+    animation: descer 1.5s ease-out forwards;
+
+}
+
+.linha-vert {
+    width: 15px;
+    position: absolute;
+    height: 400px;
+    background-color: red;
+    right: 50%;
+    top : 250px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px 2px rgb(26, 26, 26);
+    animation: descer 1.5s ease-out forwards;
+    animation: brilho 1.5s infinite ease-in-out;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+
+.menu nav {
+    background-color: gray;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 200px;
+    height: 400px;
+    border: solid;
+    top: 0;
+    right: 0px;
+
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+    transition: 0.2s ease-in-out;
+}
+
+.menu a:active {
+    color: black;
+}
+
+@keyframes VALORANT {
+
+    0% { transform: scale(1)}
+    50% { transform: scale(1.05)}
+    100% { transform: scale(1);}
+
+}
+@keyframes brilho {
+    0% {
+        box-shadow: 0px 0px 50px 2px rgb(255, 0, 0);
+    }
+    50% {
+        box-shadow: 0px 0px 100px 2px rgb(255, 0, 0);
+    }
+    100% {
+        box-shadow: 0px 0px 70px 2px rgb(255, 0, 0);
+    }
+}
+
+

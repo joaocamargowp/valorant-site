@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+
+.img-icon {
+display: none;
+}
+
+.linha-top {
+    display: none;
+}
+
+
+.text-prince {
+    font-size: 2vh;
+    }
+}

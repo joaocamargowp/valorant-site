@@ -1,0 +1,49 @@
+.btn-log {
+   
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(255, 73, 1);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0px 0px 10px black;
+    transition: transform 0.3s ease-in-out,  background-color 0.3s ease-in-out;
+}
+
+.btn-log:hover {
+    background-color: rgb(255, 123, 0);
+    transform: scale(1.05);
+
+
+}
+
+
+.btn-sing {
+    color: white;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px black;
+    font-size: 16px;
+    font-family:"Inter" ;
+    cursor: pointer;
+    background-color: rgb(255, 73, 1);
+    border: none;
+    transition: transform 0.3s ease-in-out,  background-color 0.3s ease-in-out;
+
+}
+
+.btn-sing:hover {
+    background-color: rgb(255, 123, 0);
+    transform: scale(1.05);
+}

@@ -1,0 +1,306 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #363f47;
+}
+
+
+.prin-h1 {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "valorant-font", sans-serif;
+}
+
+@font-face {
+    font-family: "valorant-font";
+    src: url("/agentes/img/Valorant\ Font.ttf") format("truetype");
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0 0 10px #000;
+    overflow: hidden;
+}
+
+.container div img {
+    position: absolute;
+    display: none; /* Esconde todas as imagens inicialmente */
+    transition: opacity 0.5s ease-in-out;
+}
+
+.container div img.on {
+    display: block; /* Exibe apenas a imagem com a classe 'on' */
+    animation: slide-in-right 1s ease-in-out;
+}
+
+
+.astra img{ position: absolute;
+    background-color: white;
+    z-index: 1;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.breach img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.brimstone img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.cypher img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.jett img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.killjoy img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.neon img{
+    position: absolute;
+   z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.omen img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.phoenix img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.reyna img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.sage img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.sova img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.viper img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.yoru img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.viper img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.sky img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.chamber img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.fade img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.harbor img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.kayo img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.raze img{ position: absolute;
+    z-index: 0;
+    background-color: white;
+    width: 300px;
+    padding: 0px 0px ;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+#btn-next {
+    position: absolute;
+    background-color: #8f8484;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    top: 90%; /* Centraliza verticalmente */
+    right: 40px; /* Posiciona à direita */
+    transform: translateY(-50%);
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+}
+
+#btn-prev {
+    position: absolute;
+    background-color: #8f8484;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    top: 90%; /* Centraliza verticalmente */
+    left: 40px; /* Posiciona à esquerda */
+    transform: translateY(-50%) rotate(180deg);
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+}
+
+
+.character-name {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.character-name h2 {
+    font-size: 40px;
+    color: #f0f0f0;
+    font-family: "valorant-font", sans-serif;
+    text-shadow: 0 0 10px #000;
+}
+
+#btn-prev:hover {
+    transform: translateY(-50%) scale(1.1) rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+#btn-next:hover {
+    transform: translateY(-50%) scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(100px);
+        transform: translate(50%, -50%);; /* Começa fora da tela, à direita */
+        opacity: 0; /* Invisívnício */
+    }
+    100% {
+        transform: translateX(0);
+        transform: translate(50%, -50%); /* Fica na posição original */
+        opacity: 1; /* Totalmente visível */
+    }
+}
+
+
+
+
+

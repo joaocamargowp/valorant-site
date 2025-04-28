@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+    .nav-list a {
+        display: none;
+    }
+
+    li {
+        display: none;
+    }
+}

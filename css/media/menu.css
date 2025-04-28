@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+.menu nav {
+    display: flex;
+    opacity: 0;
+    
+}
+.hamburger {
+    position: absolute;
+    display: flex;
+    right: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    z-index: 2;
+}
+}

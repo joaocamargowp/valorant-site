@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+
+
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    gap: 100px;
+ 
+}
+
+.conteudo-principal {
+    margin-left: 10px;
+    }
+.text-top {
+font-size: 20px;
+}
+
+.text-subtop {
+    font-size: 14px;
+}
+
+
+
+.img-kaio {
+    width: 300px;
+}
+
+
+.conteudo-secundario {
+     margin-left: 10px;
+
+}
+.img-waylay {
+    width: 300px;
+
+}
+}
+
+

@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    
+    .btn-log {
+        display: none;
+    }
+
+    .btn-sing {
+        display: none;
+    }
+}
+
